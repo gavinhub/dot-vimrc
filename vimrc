@@ -21,6 +21,7 @@ au WinLeave * set nocursorline nocursorcolumn
 au WinEnter * set cursorline cursorcolumn
 set cursorline cursorcolumn
 
+
 " search
 set incsearch
 "set highlight 	" conflict with highlight current line
@@ -266,3 +267,5 @@ if has("gui_running")
     map <D-9> 9gt
     map <D-0> :tablast<CR>
 endif
+
+

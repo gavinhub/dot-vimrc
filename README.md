@@ -6,8 +6,8 @@ Fork from: [humiaozuzu/dot-vimrc](https://github.com/humiaozuzu/dot-vimrc)
 ## Modificaton
 
 1. Color scheme -> vividchalk
-2. Brackets auto closing vundle: delimitmate -> auto-paris
-3. Delete Bundle: trailing-white-space
+1. Brackets auto closing vundle: delimitmate -> auto-paris
+1. Delete Bundle: trailing-white-space, tabbar
 
 ## Maple's project
 
