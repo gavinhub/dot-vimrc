@@ -8,6 +8,7 @@ Fork from: [humiaozuzu/dot-vimrc](https://github.com/humiaozuzu/dot-vimrc)
 1. Color scheme -> vividchalk
 1. Brackets auto closing vundle: delimitmate -> auto-paris
 1. Delete Bundle: trailing-white-space, tabbar
+1. Note: run `git config core.editor "/usr/bin/vim"` to enable git with vim
 
 ## Maple's project
 
