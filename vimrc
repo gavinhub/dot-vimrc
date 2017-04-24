@@ -51,20 +51,24 @@ set matchpairs+=<:>                                               " specially fo
 " Default Indentation
 set autoindent
 set smartindent     " indent when
-set tabstop=4       " tab width
-set softtabstop=4   " backspace
-set shiftwidth=4    " indent width
+set tabstop=2       " tab width
+set softtabstop=2   " backspace
+set shiftwidth=2    " indent width
 " set textwidth=79
 " set smarttab
 set expandtab       " expand tab to space
 
 autocmd FileType php setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
 autocmd FileType ruby setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
-autocmd FileType php setlocal tabstop=4 shiftwidth=4 softtabstop=4 textwidth=120
+autocmd FileType php setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
 autocmd FileType coffee,javascript setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
-autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4 textwidth=120
+autocmd FileType python setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
 autocmd FileType html,htmldjango,xhtml,haml setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=0
 autocmd FileType sass,scss,css setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
+
+" color column
+let &colorcolumn=join(range(81,999), ",")
+highlight ColorColumn ctermfg=201 ctermbg=none
 
 " syntax support
 autocmd Syntax javascript set syntax=jquery   " JQuery syntax support
@@ -159,7 +163,7 @@ let NERDCompactSexyComs=1
 let g:user_emmet_expandabbr_key='<C-j>'
 
 " powerline
-"let g:Powerline_symbols = 'fancy'
+let g:airline_theme='cool'
 
 " NeoComplCache
 let g:neocomplcache_enable_at_startup=1
