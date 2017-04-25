@@ -49,7 +49,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'vim-airline/vim-airline'
 Bundle 'vim-airline/vim-airline-themes'
 Bundle 'scrooloose/syntastic'
-"Bundle 'bronson/vim-trailing-whitespace'
+Bundle 'bronson/vim-trailing-whitespace'
 
 "-------------
 " Other Utils
